@@ -15,7 +15,7 @@ This project is a Python-based web application leveraging Flask, SQLAlchemy, and
 Follow these steps to set up and run the project locally:
 
 
-Solution 2: Install virtualenv via pipx
+Install virtualenv via pipx
 
 If you specifically want to use virtualenv, you can use pipx, which is Homebrew’s recommended way to manage Python applications.
 
@@ -58,24 +58,22 @@ Run the service:
 
     uvicorn main:app --reload
 
-Based on this video:
+Project is based on this:
 https://www.youtube.com/watch?v=iWS9ogMPOI0
 and repo:
 https://github.com/pixegami/simple-fastapi-example
 
-Use **pydantic** or **typeguard** for strict runtime checking
+Notes:
+- Use **pydantic** or **typeguard** for strict runtime checking
 https://www.youtube.com/watch?v=XIdQ6gO3Anc
 
-OpenAPI docs:
+- OpenAPI docs:
 http://127.0.0.1:8000/redoc#
 http://127.0.0.1:8000/docs#/
 
 
 
-
-# FastAPI Concepts
-
-FastAPI is a modern, fast (high-performance) web framework for building APIs with Python. It’s designed to be easy to use while leveraging Python type hints for automatic data validation and documentation generation.
+# Additional FastAPI Concepts
 
 ---
 
