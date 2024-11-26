@@ -10,23 +10,6 @@ This project is a Python-based web application leveraging Flask, SQLAlchemy, and
 
 ---
 
-## Project Structure
-
-```plaintext
-.venv/                 # Virtual environment directory
-auth/                  # Sample module
-static/                # Static assets (CSS, JS, images)
-templates/             # HTML templates for the front-end
-
-app-main.py            # Main entry point for the Flask application
-app-orm.py             # Handles ORM logic with SQLAlchemy
-app-sql.py             # Direct SQL-based queries and database interactions
-models.py              # Database models defined with SQLAlchemy
-requirements.txt       # List of dependencies
-```
-
----
-
 ## Installation
 
 Follow these steps to set up and run the project locally:
